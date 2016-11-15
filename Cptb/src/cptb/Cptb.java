@@ -7,7 +7,7 @@ package cptb;
 
 /**
  *
- * @author rgoulmieh
+ * @author ALRI
  */
 public class Cptb extends Thread{
 
