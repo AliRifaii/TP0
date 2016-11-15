@@ -52,19 +52,7 @@ System.out.println("Thread #Priority# "+Thread.currentThread().getPriority());
     thr3.start();
     System.out.println("Thread Number"+Thread.activeCount());
    
-    try
-    {
-      thr1.join();
-       thr2.join();
-       thr3.join();
-       
-    }
-    catch (InterruptedException e) {System.out.println(e);}
-    
-    System.out.println("End P2b"); 
-
-    System.exit(0); 
-    
+   
  
 }
     }
